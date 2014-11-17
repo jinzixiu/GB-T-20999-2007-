@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgPhaseParm</class>
+ <widget class="QDialog" name="DlgPhaseParm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>相位参数表</string>
+  </property>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>202</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>单位绿灯延时时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinNumber">
+   <property name="geometry">
+    <rect>
+     <x>206</x>
+     <y>31</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinGreenTime">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>334</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>245</y>
+     <width>170</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>最大绿灯时间1</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check1">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>257</y>
+     <width>191</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>路段中的行人过街相位</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinCrossmsec">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>74</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinClearTime">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>114</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>110</y>
+     <width>131</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>相位类型</string>
+   </property>
+   <widget class="QRadioButton" name="radioFixed">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>25</y>
+      <width>87</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>固定相位</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioWait">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>132</y>
+      <width>87</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>待定相位</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioPlay">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>61</y>
+      <width>87</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>弹性相位</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioKey">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>97</y>
+      <width>87</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关键相位</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiokongong">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>167</y>
+      <width>39</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>27</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>已设行：</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check4">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>157</y>
+     <width>293</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>跟随同阶段中同时放行的相位一起放行</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>289</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>最大绿灯时间2</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>293</x>
+     <y>18</y>
+     <width>20</width>
+     <height>411</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>29</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>相   位   号</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinGreenLaterTime">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>199</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinMaxTime">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>246</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>332</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>弹性相位固定绿灯时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>72</y>
+     <width>170</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>行人过街绿灯的秒数</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check2">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>223</y>
+     <width>251</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>同阶段相位出现时，本相位出现</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>412</x>
+     <y>399</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>方向</string>
+   </property>
+   <widget class="QRadioButton" name="radiodong">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>19</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>东</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiobei">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>60</y>
+      <width>41</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>北</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioxi">
+    <property name="geometry">
+     <rect>
+      <x>91</x>
+      <y>19</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radionan">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>南</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radionull">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>100</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>无</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>107</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>相位选项功能：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>116</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>行人清空时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinGreenFlash">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>378</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butquery">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>22</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询
+已设</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinMaxTime2">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>290</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>37</x>
+     <y>380</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>绿 闪 时 间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>452</x>
+     <y>399</y>
+     <width>16</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>相位类型</string>
+   </property>
+   <widget class="QRadioButton" name="radioyuandeng">
+    <property name="geometry">
+     <rect>
+      <x>22</x>
+      <y>19</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>圆灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioyouzhuan">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>52</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>右转</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiozhixingdeng">
+    <property name="geometry">
+     <rect>
+      <x>112</x>
+      <y>18</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>直行灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiozuozhuan">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>91</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>左转</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiodiaotou">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>83</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>掉头</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiokong">
+    <property name="geometry">
+     <rect>
+      <x>101</x>
+      <y>83</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>空</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSpinBox" name="spinMinGreenTime">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>156</y>
+     <width>71</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>256</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>159</y>
+     <width>170</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>最小绿灯时间</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check0">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>290</y>
+     <width>71</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>启用</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hang">
+   <property name="geometry">
+    <rect>
+     <x>481</x>
+     <y>27</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="check3">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>190</y>
+     <width>201</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>行人跟随机动车一起放行</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butclearall">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>22</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空
+全表</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butfind">
+   <property name="geometry">
+    <rect>
+     <x>412</x>
+     <y>391</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查 询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butok">
+   <property name="geometry">
+    <rect>
+     <x>522</x>
+     <y>391</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>修 改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butclear">
+   <property name="geometry">
+    <rect>
+     <x>631</x>
+     <y>391</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>清空行</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="display">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>349</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <zorder>groupBox_3</zorder>
+  <zorder>label_5</zorder>
+  <zorder>spinNumber</zorder>
+  <zorder>spinGreenTime</zorder>
+  <zorder>label_6</zorder>
+  <zorder>check1</zorder>
+  <zorder>spinCrossmsec</zorder>
+  <zorder>spinClearTime</zorder>
+  <zorder>groupBox</zorder>
+  <zorder>label_10</zorder>
+  <zorder>check4</zorder>
+  <zorder>label_7</zorder>
+  <zorder>line</zorder>
+  <zorder>label</zorder>
+  <zorder>spinGreenLaterTime</zorder>
+  <zorder>spinMaxTime</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_2</zorder>
+  <zorder>check2</zorder>
+  <zorder>groupBox_2</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_3</zorder>
+  <zorder>spinGreenFlash</zorder>
+  <zorder>butquery</zorder>
+  <zorder>spinMaxTime2</zorder>
+  <zorder>label_9</zorder>
+  <zorder>spinMinGreenTime</zorder>
+  <zorder>label_4</zorder>
+  <zorder>check0</zorder>
+  <zorder>hang</zorder>
+  <zorder>check3</zorder>
+  <zorder>butclearall</zorder>
+  <zorder>butfind</zorder>
+  <zorder>butok</zorder>
+  <zorder>butclear</zorder>
+  <zorder>display</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

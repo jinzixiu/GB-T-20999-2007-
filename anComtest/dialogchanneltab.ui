@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogChanneltab</class>
+ <widget class="QDialog" name="DialogChanneltab">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>通道表</string>
+  </property>
+  <widget class="QSpinBox" name="spinChannelNum">
+   <property name="geometry">
+    <rect>
+     <x>252</x>
+     <y>45</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>404</x>
+     <y>50</y>
+     <width>111</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>通道信号源</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>219</x>
+     <y>110</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Flash通道状态</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butquery">
+   <property name="geometry">
+    <rect>
+     <x>486</x>
+     <y>323</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询
+已设</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ChannelSignSour">
+   <property name="geometry">
+    <rect>
+     <x>517</x>
+     <y>45</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>449</x>
+     <y>110</y>
+     <width>291</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选中后半秒亮灯/不选中前半秒亮灯</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butclearall">
+   <property name="geometry">
+    <rect>
+     <x>546</x>
+     <y>323</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空
+全表</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_3">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>180</y>
+     <width>211</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选中黄闪/不选中黄灯关灯</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_2">
+   <property name="geometry">
+    <rect>
+     <x>449</x>
+     <y>145</y>
+     <width>231</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>选中红闪/不选中红灯关灯</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>121</x>
+     <y>52</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>通道号(1-16)</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>336</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>已设行数</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hang">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>330</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>31</x>
+     <y>304</y>
+     <width>741</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>37</x>
+     <y>25</y>
+     <width>731</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butfind">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查 询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butok">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修 改</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butcleaer">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>370</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清空行</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="display">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>400</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>230</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>方向</string>
+   </property>
+   <widget class="QRadioButton" name="NULL1">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>24</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>空</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>24</y>
+      <width>39</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>东</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir2">
+    <property name="geometry">
+     <rect>
+      <x>92</x>
+      <y>24</y>
+      <width>39</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>南</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir3">
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>24</y>
+      <width>39</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir4">
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>24</y>
+      <width>39</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>北</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir7">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>163</x>
+      <y>100</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西北</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir6">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>92</x>
+      <y>100</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西南</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir8">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>235</x>
+      <y>100</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>西南</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="dir5">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>99</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>东南</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>160</y>
+     <width>311</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="title">
+    <string>灯种</string>
+   </property>
+   <widget class="QRadioButton" name="flash1">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>25</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>其他灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash3">
+    <property name="geometry">
+     <rect>
+      <x>123</x>
+      <y>25</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>行人灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash4">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>226</x>
+      <y>25</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>跟随灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash5">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>49</y>
+      <width>89</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>圆机动灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash6">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>48</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>直行机动灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash7">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>71</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>左转机动灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash8">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>71</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>右转机动灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="flash9">
+    <property name="geometry">
+     <rect>
+      <x>35</x>
+      <y>95</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>掉头机动灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="NULL2">
+    <property name="geometry">
+     <rect>
+      <x>178</x>
+      <y>93</y>
+      <width>89</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>空</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

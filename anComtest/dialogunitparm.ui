@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogUnitParm</class>
+ <widget class="QDialog" name="DialogUnitParm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>单元参数表</string>
+  </property>
+  <widget class="QLabel" name="Editsign2">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>221</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{     border-width: 1px;     border-style: solid;     border-color: rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>107</y>
+     <width>176</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>当前闪光控制模式</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox2">
+   <property name="geometry">
+    <rect>
+     <x>431</x>
+     <y>315</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>有缆协调</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>27</y>
+     <width>176</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>启动闪光控制时间</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinFlashContrl">
+   <property name="geometry">
+    <rect>
+     <x>266</x>
+     <y>24</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Editsign1">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>181</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{     border-width: 1px;     border-style: solid;     border-color: rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>418</x>
+     <y>27</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>启动全红控制时间</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox1">
+   <property name="geometry">
+    <rect>
+     <x>247</x>
+     <y>315</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>允许辉度控制</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Editsignlist">
+   <property name="geometry">
+    <rect>
+     <x>259</x>
+     <y>261</y>
+     <width>481</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{     border-width: 1px;     border-style: solid;     border-color: rgb(255, 170, 0);}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>131</x>
+     <y>68</y>
+     <width>198</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>当前信号机控制状态</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>227</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>信号机报警2</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton1">
+   <property name="geometry">
+    <rect>
+     <x>501</x>
+     <y>148</y>
+     <width>47</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>1HZ</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioNULL">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>148</y>
+     <width>39</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>无</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>67</x>
+     <y>313</y>
+     <width>88</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>远程功能</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="flashcontrlstate">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>103</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>未知的闪光原因(1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>当前不是处于闪光控制状态(2)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>自动闪光控制(3)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>本地手动黄闪(4)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>故障监视引起的闪光控制(5)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>信号冲突引起的闪光控制(6)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>启动时闪光控制(7)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>非法模式！</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>186</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>信号机报警1</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton2">
+   <property name="geometry">
+    <rect>
+     <x>391</x>
+     <y>148</y>
+     <width>47</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>2HZ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>268</y>
+     <width>154</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>信号机报警摘要</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinAllRedContrl">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>24</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>87</x>
+     <y>148</y>
+     <width>88</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>闪光频率</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="signcontrlstate">
+   <property name="geometry">
+    <rect>
+     <x>426</x>
+     <y>63</y>
+     <width>201</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>未知模式(1)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>系统协调控制(2)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>主机协调控制(3)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>手机面板控制(4)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>时段表控制(按本地时段表运行)(5)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>有缆协调(6)</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>非法模式！</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QCheckBox" name="checkBox3">
+   <property name="geometry">
+    <rect>
+     <x>611</x>
+     <y>315</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>作为控制主机</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton5">
+   <property name="geometry">
+    <rect>
+     <x>598</x>
+     <y>148</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>0.5HZ</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butfind">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>385</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>查 询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butok">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>385</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="text">
+    <string>设 置</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="display">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>350</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

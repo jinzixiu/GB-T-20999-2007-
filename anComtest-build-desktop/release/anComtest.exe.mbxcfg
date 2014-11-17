@@ -1,0 +1,24 @@
+
+box.cmdline=
+box.encrypt=1
+box.packdefault=1
+box.pattern=*.*
+box.separate=0
+box.sepfile=
+box.ziplevel=1
+box.zipthold=100
+dir.addfiles=H:\QT\52323232323\anComtest-build-desktop\release
+exe.crc=1
+exe.pack=1
+exe.packedfilesvisible=1
+exe.source=H:\QT\52323232323\anComtest-build-desktop\release\anComtest.exe
+exe.target=ÐÅºÅ»úÖÕ¶Ë.exe
+key.0=820CDBAEE1BA401D313400470F15BCAB
+key.1=D334B148EFDECE5E57FAF946DF837671
+
+box.contents~
+00 libgcc_s_dw2-1.dll
+00 mingwm10.dll
+00 QtCore4.dll
+00 QtGui4.dll
+~

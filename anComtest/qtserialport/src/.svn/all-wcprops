@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src
+END
+serialportengine_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_p.h
+END
+serialportinfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo.cpp
+END
+serialportengine_unix_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_unix_p.h
+END
+qtserialport.pri
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qtserialport.pri
+END
+serialportinfo_unix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo_unix.cpp
+END
+src-lib.pri
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/src-lib.pri
+END
+serialportinfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo.h
+END
+src.pro
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/src.pro
+END
+ttylocker_unix_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/ttylocker_unix_p.h
+END
+serialport_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialport_p.h
+END
+serialportengine_win_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_win_p.h
+END
+serialportengine_unix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_unix.cpp
+END
+SerialPort_resource.rc
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/SerialPort_resource.rc
+END
+serialportinfo_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo_win.cpp
+END
+serialportengine_symbian_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_symbian_p.h
+END
+serialportinfo_mac.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo_mac.cpp
+END
+SerialPortd_resource.rc
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/SerialPortd_resource.rc
+END
+serialportinfo_symbian.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo_symbian.cpp
+END
+ttylocker_unix.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/ttylocker_unix.cpp
+END
+serialport.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialport.cpp
+END
+serialportinfo_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportinfo_p.h
+END
+serialportengine_win.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_win.cpp
+END
+serialport-global.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialport-global.h
+END
+serialport.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialport.h
+END
+serialportengine_symbian.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/serialportengine_symbian.cpp
+END

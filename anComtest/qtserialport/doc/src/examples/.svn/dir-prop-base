@@ -1,0 +1,22 @@
+K 10
+svn:ignore
+V 117
+*.user
+Makefile
+*.Debug
+*.Release
+Debug
+Release
+temp
+moc
+obj
+moc*.*
+*.o
+debug
+release
+ui_*.h
+.git
+.git*
+sync.profile
+
+END

@@ -1,0 +1,12 @@
+INPUT(
+./release\serialport.o
+./release\serialportinfo.o
+./release\serialportengine_win.o
+./release\serialportinfo_win.o
+./release\ia2dhandler.o
+./release\a2d.o
+./release\main.o
+./release\mainwindow.o
+./release\moc_a2d.o
+./release\moc_mainwindow.o
+);

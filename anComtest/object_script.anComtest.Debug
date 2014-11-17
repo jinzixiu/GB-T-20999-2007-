@@ -1,0 +1,12 @@
+INPUT(
+./debug\serialport.o
+./debug\serialportinfo.o
+./debug\serialportengine_win.o
+./debug\serialportinfo_win.o
+./debug\ia2dhandler.o
+./debug\a2d.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\moc_a2d.o
+./debug\moc_mainwindow.o
+);

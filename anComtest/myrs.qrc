@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/G.png</file>
+        <file>images/NULL.png</file>
+        <file>images/R.png</file>
+        <file>images/Y.png</file>
+        <file>images/1045531_164739021_2.png</file>
+        <file>images/1212.png</file>
+        <file>images/G1.png</file>
+        <file>images/G2.png</file>
+        <file>images/G3.png</file>
+        <file>images/G4.png</file>
+        <file>images/GG.png</file>
+        <file>images/R1.png</file>
+        <file>images/R2.png</file>
+        <file>images/R3.png</file>
+        <file>images/R4.png</file>
+        <file>images/RR.png</file>
+        <file>images/Y1.png</file>
+        <file>images/Y2.png</file>
+        <file>images/Y3.png</file>
+        <file>images/Y4.png</file>
+        <file>images/YY.png</file>
+        <file>images/NULL.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support
+END
+qringbuffer_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support/qringbuffer_p.h
+END
+qwineventnotifier_p.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support/qwineventnotifier_p.h
+END
+include-helper.pri
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support/include-helper.pri
+END
+serialport.prf
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support/serialport.prf
+END
+serialport.pri
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/dxmanager/!svn/ver/786/trunk/src/app/a2d/qtserialport/src/qt4support/serialport.pri
+END

@@ -1,0 +1,1198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogContrlParm</class>
+ <widget class="QDialog" name="DialogContrlParm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>450</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>控制方案表</string>
+  </property>
+  <widget class="QSpinBox" name="spinphasedif">
+   <property name="geometry">
+    <rect>
+     <x>568</x>
+     <y>134</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>13</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>手动控制方案</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinstate">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>178</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_6">
+   <property name="geometry">
+    <rect>
+     <x>48</x>
+     <y>209</y>
+     <width>711</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>倒计牌属性</string>
+   </property>
+   <widget class="QGroupBox" name="groupBox_5">
+    <property name="geometry">
+     <rect>
+      <x>536</x>
+      <y>19</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>驱动板4</string>
+    </property>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>20</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒一</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>60</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒二</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_1">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_3">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_4">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_6">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_5">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_7">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox4_8">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>363</x>
+      <y>20</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>驱动板3</string>
+    </property>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>20</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒一</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>60</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒二</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_1">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_3">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_4">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_6">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_5">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_7">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3_8">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>189</x>
+      <y>20</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>驱动板2</string>
+    </property>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>20</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒一</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>60</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒二</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_1">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_3">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_4">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_6">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_5">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_7">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2_8">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>20</y>
+      <width>161</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>驱动板1</string>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>20</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒一</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>60</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>倒二</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_1">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_2">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>20</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_3">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_4">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>40</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_6">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道2</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_5">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>60</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道1</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_7">
+     <property name="geometry">
+      <rect>
+       <x>43</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道3</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1_8">
+     <property name="geometry">
+      <rect>
+       <x>93</x>
+       <y>80</y>
+       <width>71</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>通道4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QCheckBox" name="checkBox">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>140</y>
+      <width>61</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>全选</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QSpinBox" name="spininstruction">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>179</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>16</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>438</x>
+     <y>134</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>协调相位差</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>178</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>步进指令</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinmodel">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>179</y>
+     <width>70</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>13</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>13</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>系统控制方案</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>98</x>
+     <y>134</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>公共周期时长</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinManual">
+   <property name="geometry">
+    <rect>
+     <x>251</x>
+     <y>13</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spincycletime">
+   <property name="geometry">
+    <rect>
+     <x>228</x>
+     <y>134</y>
+     <width>120</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 14pt &quot;黑体&quot;;</string>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>178</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>降级模式</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>178</y>
+     <width>100</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 13pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="text">
+    <string>阶段状态</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>631</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 11pt &quot;黑体&quot;;
+color:red;�</string>
+   </property>
+   <property name="title">
+    <string>控制方式</string>
+   </property>
+   <widget class="QRadioButton" name="radioclose">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>关灯</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioflash">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>闪光</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioallred">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>全红</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiofeel">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>感应</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiosinglebetter">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>47</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>单点优化</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiomasterlinecontrl">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>47</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>主从线控</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiosystembetter">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>47</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>系统优化</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radiointerventionlinecontrl">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>47</y>
+      <width>110</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>干预线控</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radionull">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>20</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>空</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="display">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>378</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butfind">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="butok">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>410</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>修改</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBoxplan">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>12</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>自主控制</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案1</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案2</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案3</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案4</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案5</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案6</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案7</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案8</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案9</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案10</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案11</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案12</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案13</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案14</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案15</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案16</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案17</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案18</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案19</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案20</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案21</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案22</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案23</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案24</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案25</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案26</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案27</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案28</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案29</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案30</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案31</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>配时方案32</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>全红</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>闪光</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>关灯</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
